@@ -44,10 +44,10 @@ Transaction batch uploaded via CSV for processing.
 Validates required columns, formats, and data consistency before inference.
 
 **3. ML Inference Pipeline**
-- Imputation — handles missing values  
-- Scaling — normalizes numerical features  
-- Encoding — converts categorical data  
-- Prediction — generates model probability scores
+- Imputation   
+- Scaling 
+- Encoding 
+- Prediction
 
 **4. Probability Intelligence**  
 Aggregates transaction-level predictions into customer-level behavioral insights using averaged probability vectors.
